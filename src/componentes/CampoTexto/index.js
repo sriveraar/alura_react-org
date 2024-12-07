@@ -5,7 +5,7 @@ const CampoTexto = (props) => {
     const placeholderModificado = `${props.placeholder}...`
     
     const manejarCambio = (e) =>{
-        props.actualizarValor(e.targe.value)
+        props.actualizarValor(e.target.value)
     }
     
     return (<div className="campo-texto">
