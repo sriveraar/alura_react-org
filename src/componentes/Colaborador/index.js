@@ -1,5 +1,5 @@
-import "./Colaborador.css"
-import { AiFillCloseCircle } from "react-icons/ai"
+import "./Colaborador.css";
+import { AiFillCloseCircle } from "react-icons/ai";
 
 const Colaborador = (props) => {
     const { nombre, puesto, foto, equipo } = props.datos
